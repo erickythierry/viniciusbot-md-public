@@ -11,6 +11,7 @@
     "pino": "^7.0.5",
     "moment-timezone": "^0.5.32",
     "libsignal":"^2.0.1",
+    "chalk":"^4.1.2",
     "axios": "^0.21.4"
   },
   "scripts": {
