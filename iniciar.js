@@ -32,7 +32,9 @@ const getGroupAdmins = (participantes) => {
     return admins
 }
 
-const prefix = JSON.parse(fs.readFileSync('./config.json')).prefix
+const prefix = [
+    '!'
+]
 
 (async () => {
     var client = undefined;
