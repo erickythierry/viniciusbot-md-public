@@ -14,20 +14,6 @@ O ViniciusBOT MD é a PRIMEIRA BASE PÚBLICA DO BRASIL A OFERECER SUPORTE A BAIL
     </p>
 </h1>
 
-----
-
-# Índice 
-
-- [Base Descriptograda](#Base-Descriptograda)
-- [O que há de novo?](#O-que-há-de-novo?)
-- [Instalação](#⬇️-Instalação)
-- [Mudando as configurações](#🙋‍♂️-Mudando-as-configurações-do-bot)
-- [Donate](#🥺-Donate)
-- [Contatos](#🤝-Contato)
-- [Créditos](#Créditos)
-
------
-
 
 # ⚖️ Licença
 
@@ -55,30 +41,7 @@ Este bot esta protegido com a licença MIT ou seja, será permitido a distribui�
 | Conectar 4 dispositivos simultaneamente |✅|
 | Não precisa de conexão com o celular |✅|
 | Utiliza o whatsapp web |✅|
-
-----
-
-# ⬇️ Instalação
-
-Primeiro de tudo, para poder instalar o bot no seu whatsapp não deve se utilizar nenhum modificação no aplicativo pois ele não está atualizado, você deve instalar o whatsapp da playstore e em seguida instalar o whatsapp beta, caso você já possua não é necessário reinstalar...
-
-Após ter instalado o whatsapp beta abra o aplicativo vá em "Opções > Aparelhos conectados"
-
-
-Após isso ira aparecer os dispositivos conectado no whatsapp web, se scannear agora vai funcionar somente o whatsapp web normal, para usar o whatsapp web beta clique em "Multiplos Aparelhos (Beta)"
-
-Irá aparecer o que há de novo se você entrar para o whatsapp beta, após ter lido abaixo terá um botão "Entrar na Versão Beta" clique nele e você estará participando do whatsapp web beta.
-
-Volte para os aparelhos conectado e agora cique em "Conectar um Aparelho" e pronto você já pode escanear o qr code. Agora os comandos para instalar são quase semelhantes de instalar o ViniciusBOT:
-
-----
-
-# 🙋‍♂️ Mudando as configurações do bot
-Para mudar as configurações do bot os comandos são os mesmo que o ViniciusBOT: 
-
-
-----
-
+-----
 # 🥺 Donate
 Pra fazer um bot que utiliza o baileys multi device demorou bastante e muito esforço, se quiser comprar um copo de café para mim minha chave pix é essa:
 
