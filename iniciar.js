@@ -17,6 +17,7 @@ var baileys = require("./custom_modules/@adiwajshing/baileys-md");
 const axios = require('axios').default
 const fs = require('fs')
 const moment = require('moment-timezone')
+const chalk = require('chalk')
 
 const color1 = (texto, cor) => {
     return !color ? chalk.magenta(texto) : chalk.keyword(cor)(texto)
