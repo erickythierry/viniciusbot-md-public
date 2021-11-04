@@ -33,14 +33,14 @@ Este bot esta protegido com a licença MIT ou seja, será permitido a distribui�
 | ------------- | ------------- |
 | Conectar 4 dispositivos simultaneamente |❌|
 | Não precisa de conexão com o celular |❌|
-| Utiliza o whatsapp web |✅|
+| Utiliza o whatsapp web por meio de WebSocket |✅|
 
 
 | Baileys multi-device | Contém |
 | ------------- | ------------- |
 | Conectar 4 dispositivos simultaneamente |✅|
 | Não precisa de conexão com o celular |✅|
-| Utiliza o whatsapp web |✅|
+| Utiliza o whatsapp web por meio de WebSocket |✅|
 -----
 # 🥺 Donate
 Pra fazer um bot que utiliza o baileys multi device demorou bastante e muito esforço, se quiser comprar um copo de café para mim minha chave pix é essa:
