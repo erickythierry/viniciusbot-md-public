@@ -32,11 +32,12 @@ const getGroupAdmins = (participantes) => {
     return admins
 }
 
-const prefix = [
-    '!'
-]
+
 
 (async () => {
+    prefix = [
+        '!'
+    ]
     var client = undefined;
     var loadState = () => {
         var state = undefined;
