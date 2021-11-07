@@ -28,7 +28,7 @@ const color = (texto, cor) => {
 const getGroupAdmins = (participantes) => {
     var admins = []
     for (let i of participantes) {
-        i.isAdmin ? admins.push(i.jid) : ''
+        i.admin === "admin" ? admins.push(i.id) : ''
     }
     return admins
 }
