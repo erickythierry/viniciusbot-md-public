@@ -113,13 +113,13 @@ const getGroupAdmins = (participantes) => {
                 const isGroupAdmins = groupAdmins.includes(author) || false
                 const isBotAdmin = () => {
 			a1 = isGroup ? getGroupAdmins(groupMembers) : ''
-			posiçaode4 = false
+			poisitonAdmin = false
 			Object.keys(a1).forEach((a) => {
 				if (banTemp[a].id === botNumber) {
-					posiçaode4 = a
+					poisitonAdmin = a
 				}
 				if (posiçaode4 !== null) {
-					bb = a1[posiçaode4].admin
+					bb = a1[poisitonAdmin].admin
 					if (bb === 'admin') {
 						return true
 					} else{
