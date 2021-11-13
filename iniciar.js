@@ -112,22 +112,22 @@ const getGroupAdmins = (participantes) => {
 
                 const isGroupAdmins = groupAdmins.includes(author) || false
                 const isBotAdmin = () => {
-					a1 = isGroup ? getGroupAdmins(groupMembers) : ''
-					posiçaode4 = false
-					Object.keys(a1).forEach((a) => {
-						if (banTemp[a].id === botNumber) {
-							posiçaode4 = a
-						}
-						if (posiçaode4 !== null) {
-							bb = a1[posiçaode4].admin
-							if (bb === 'admin') {
-								return true
-							} else{
-								return false
-							}
-						} 
-					})
+			a1 = isGroup ? getGroupAdmins(groupMembers) : ''
+			posiçaode4 = false
+			Object.keys(a1).forEach((a) => {
+				if (banTemp[a].id === botNumber) {
+					posiçaode4 = a
 				}
+				if (posiçaode4 !== null) {
+					bb = a1[posiçaode4].admin
+					if (bb === 'admin') {
+						return true
+					} else{
+						return false
+					}
+				} 
+			})
+		}
 
                 /**
                 * 
