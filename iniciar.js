@@ -2,6 +2,9 @@
  * Olá Caro kibador, esta base está sob lisença MIT, Caso deseje roubar/tirar os créditos você pode ser Processado!
  * Siga as normas da Lisença MIT, Abraços Criador!
  *
+ * Segundo o site: http://escolhaumalicenca.com.br/licencas/mit/
+ * Não é permitido a retirada de aviso de licença... Abraços!
+ *
  * ViniciusBOT Baileys MD
  */
 
@@ -11,9 +14,9 @@ const {
     ReconnectMode,
     WAProto,
     MediaType
-} = require('./custom_modules/@adiwajshing/baileys-md')
+} = require('@adiwajshing/baileys-md')
 var pino = require("pino");
-var baileys = require("./custom_modules/@adiwajshing/baileys-md");
+var baileys = require("@adiwajshing/baileys-md");
 const axios = require('axios').default
 const fs = require('fs')
 const moment = require('moment-timezone')
@@ -146,12 +149,8 @@ const getGroupAdmins = (participantes) => {
                     });
                 }
 
-               
-                // FINAL
-
-
-                if (!isGroup && isCmd) console.log(color('COMANDO RECEBIDO - V. MULTIDEVICE'), color(time, 'yellow'), color1(comando), 'DE', color1(pushname))
-                if (isCmd && isGroup) console.log(color('COMANDO RECEBIDO - V. MULTIDEVICE'), color(time, 'yellow'), color1(comando), 'DE', color1(pushname), 'EM', color(groupName))
+                if (!isGroup && isCmd) console.log(color('COMANDO RECEBIDO'), color(time, 'yellow'), color1(comando), 'DE', color1(pushname))
+                if (isCmd && isGroup) console.log(color('COMANDO RECEBIDO'), color(time, 'yellow'), color1(comando), 'DE', color1(pushname), 'EM', color(groupName))
 
                 if (isCmd) {
                     switch (comando) {
@@ -174,9 +173,13 @@ const getGroupAdmins = (participantes) => {
             }
         })
         client.ev.on('group-participants.update', async (update) => {
-	    var authInfo = client.authState
-            fs.writeFileSync('./session.json', JSON.stringify(authInfo, baileys.BufferJSON.replacer, 2))
-            console.log(update)
+	    //var authInfo = client.authState
+            //fs.writeFileSync('./session.json', JSON.stringify(authInfo, baileys.BufferJSON.replacer, 2))
+	     try {
+		console.log(update)
+	     } catch (error) {
+		console.log(error)
+	     }
         })
         return client
     }
@@ -192,7 +195,7 @@ const getGroupAdmins = (participantes) => {
                 console.log('Conexão Encerrada')
             }
         }
-        console.log('ATUALIZAÇÃO DE CONEXÃO: ', update)
+        console.log('Connection Update: ', update)
     })
 
     // auto save dos dados da sessão
